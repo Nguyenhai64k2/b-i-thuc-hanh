@@ -1,0 +1,5 @@
+print ("sinh vien Nguyen Dinh HAi ")
+print ("mssv 235752021610028")
+import numpy as np
+x = np.arange(12, 38)
+print(x
