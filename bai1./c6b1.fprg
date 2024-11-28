@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="c6b1"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-28 04:43:43 PM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMTEtMjg7MDQ6MzY6NDAgUE07MjUxOA=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMTEtMjg7MDQ6NDM6NDMgUE07MTsyNjI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Real" array="False" size=""/>
+            <output expression="&quot;nhap so nguyen n&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n==1">
+                <then>
+                    <output expression="&quot;Khong la so nguyen to&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;4">
+                        <then>
+                            <output expression="&quot;la so nguyen to&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <declare name="I" type="Integer" array="False" size=""/>
+                            <assign variable="I" expression="2"/>
+                            <while expression="n%I!=0">
+                                <assign variable="I" expression="I+1"/>
+                            </while>
+                            <if expression="I==n">
+                                <then>
+                                    <output expression="&quot;la so nguyen to &quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;khong la so nguyen to &quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

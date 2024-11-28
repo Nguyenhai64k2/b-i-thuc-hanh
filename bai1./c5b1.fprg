@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="c5b1"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-28 04:35:59 PM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMTEtMjg7MDQ6MzI6MzcgUE07MjUyMA=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMTEtMjg7MDQ6MzU6NTkgUE07MTsyNjM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="canh, cao, dientich" type="Real" array="False" size=""/>
+            <output expression="&quot;nhap canh&quot;" newline="True"/>
+            <input variable="canh"/>
+            <output expression="&quot;nhap chieu cao&quot;" newline="True"/>
+            <input variable="cao"/>
+            <assign variable="dientich" expression="(canh*cao)/2"/>
+            <output expression="&quot;dien tich tam giac la &quot;&amp;dientich" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
